@@ -13,13 +13,13 @@ class Course(object):
     def start(self):
         ''' 1、登录教务系统 '''
         #此处输入自己的学号
-        student_ID = "2020210794"
+        student_ID = ""
         #此处输入自己的教务系统密码
-        passWord = "Lch010919"
+        passWord = ""
         #此处输入自己要抢的课程的名称（尽量输入全称，否则有可能无法正确定位课程；若无法输入全称，请保证输入的名称可以少字但无错字）
-        courseName = "社会创新与社会创业（双创）"
+        courseName = ""
         #此处输入课程的授课教师名（有些课程会有不同教师授课，因此为了准确性，可以在此处输入教师名称，若不清楚教师名称，请保证字符串为“”）
-        teacherName = "刘"
+        teacherName = ""
         #使用Chrome浏览器
         driver = webdriver.Chrome()
         driver.get("https://jwgl.bupt.edu.cn/jsxsd/")
